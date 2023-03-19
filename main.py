@@ -1,8 +1,10 @@
 from fastapi import FastAPI
 from app.core.config import Settings
-import logging
+import logging.config
+from app.core.config import LOGGING_CONFIG
 
 
+logging.config.dictConfig(LOGGING_CONFIG)
 logger = logging.getLogger("bookshelf")
 
 
