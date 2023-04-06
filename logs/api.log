@@ -1,2 +1,197 @@
 INFO    2023-03-19 18:13:45,483 Start application
 INFO    2023-03-19 18:14:00,056 Start application
+INFO    2023-03-26 19:56:15,300 Run initialization
+INFO    2023-03-26 19:56:15,302 End initialization
+INFO    2023-03-26 20:42:21,642 Run initialization
+INFO    2023-03-26 20:42:21,644 End initialization
+INFO    2023-03-26 20:43:26,205 Run initialization
+INFO    2023-03-26 20:43:26,207 End initialization
+INFO    2023-03-26 20:44:51,324 Run initialization
+INFO    2023-03-26 20:44:51,325 End initialization
+INFO    2023-03-26 20:47:55,758 Run initialization
+INFO    2023-03-30 18:29:39,252 Run initialization
+ERROR   2023-03-30 18:29:39,255 An error during db initialization 1 validation error for UserCreateModel
+password
+  string does not match regex "^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-])" (type=value_error.str.regex; pattern=^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]))
+INFO    2023-03-30 18:36:00,900 Run initialization
+ERROR   2023-03-30 18:36:00,908 An error during db initialization 1 validation error for UserCreateModel
+password
+  string does not match regex "^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-])" (type=value_error.str.regex; pattern=^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]))
+INFO    2023-03-30 18:37:01,006 Run initialization
+ERROR   2023-03-30 18:37:01,008 An error during db initialization 1 validation error for UserCreateModel
+password
+  string does not match regex "^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-])" (type=value_error.str.regex; pattern=^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]))
+INFO    2023-03-30 18:37:38,304 Run initialization
+ERROR   2023-03-30 18:44:55,810 An error during db initialization 
+INFO    2023-03-30 18:48:57,271 Run initialization
+ERROR   2023-03-30 18:48:57,273 An error occur while creating model 1 validation error for UserCreateModel
+password
+  string does not match regex "^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-])" (type=value_error.str.regex; pattern=^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]))
+ERROR   2023-03-30 18:48:57,275 An error during db initialization When initializing mapper Mapper[Book(book)], expression 'OrderBook' failed to locate a name ('OrderBook'). If this is a class name, consider adding this relationship() to the <class 'app.models.book.Book'> class after both dependent classes have been defined.
+INFO    2023-03-30 18:49:36,030 Run initialization
+ERROR   2023-03-30 18:49:36,032 An error occur while creating model 1 validation error for UserCreateModel
+password
+  string does not match regex "^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-])" (type=value_error.str.regex; pattern=^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]))
+ERROR   2023-03-30 18:49:36,034 An error during db initialization When initializing mapper Mapper[Book(book)], expression 'OrderBook' failed to locate a name ('OrderBook'). If this is a class name, consider adding this relationship() to the <class 'app.models.book.Book'> class after both dependent classes have been defined.
+INFO    2023-03-30 18:53:25,308 Run initialization
+ERROR   2023-03-30 18:53:25,310 An error during db initialization When initializing mapper Mapper[Book(book)], expression 'OrderBook' failed to locate a name ('OrderBook'). If this is a class name, consider adding this relationship() to the <class 'app.models.book.Book'> class after both dependent classes have been defined.
+INFO    2023-03-30 18:56:51,790 Run initialization
+ERROR   2023-03-30 18:56:51,793 An error during db initialization When initializing mapper Mapper[Book(book)], expression 'OrderBook' failed to locate a name ('OrderBook'). If this is a class name, consider adding this relationship() to the <class 'app.models.book.Book'> class after both dependent classes have been defined.
+INFO    2023-03-30 18:58:44,448 Run initialization
+INFO    2023-03-30 18:58:44,634 Created user <app.models.user.User object at 0x0000019F2C6741F0>
+INFO    2023-03-30 18:58:44,645 Created author <app.models.author.Author object at 0x0000019F2C674250>
+INFO    2023-03-30 18:58:44,651 Created author <app.models.author.Author object at 0x0000019F2C6741F0>
+ERROR   2023-03-30 18:58:44,652 An error during db initialization 'book'
+INFO    2023-03-30 19:04:19,133 Run initialization
+INFO    2023-03-30 19:04:19,273 Created user <app.models.user.User object at 0x000002B07BA3C220>
+INFO    2023-03-30 19:04:19,282 Created author <app.models.author.Author object at 0x000002B07BA3C280>
+INFO    2023-03-30 19:04:19,288 Created author <app.models.author.Author object at 0x000002B07BA3C220>
+ERROR   2023-03-30 19:04:19,289 An error during db initialization 'book'
+INFO    2023-03-30 19:06:06,399 Run initialization
+INFO    2023-03-30 19:06:06,532 Created user <app.models.user.User object at 0x00000194F5AC4220>
+INFO    2023-03-30 19:06:06,541 Created author <app.models.author.Author object at 0x00000194F5AC4280>
+INFO    2023-03-30 19:06:06,545 Created author <app.models.author.Author object at 0x00000194F5AC4220>
+ERROR   2023-03-30 19:06:06,547 An error during db initialization 'book'
+INFO    2023-03-30 19:11:56,989 Run initialization
+INFO    2023-03-30 19:11:57,215 Created user <app.models.user.User object at 0x000002073B324220>
+INFO    2023-03-30 19:11:57,223 Created author <app.models.author.Author object at 0x000002073B324280>
+INFO    2023-03-30 19:11:57,228 Created author <app.models.author.Author object at 0x000002073B324220>
+ERROR   2023-03-30 19:11:57,229 An error during db initialization 'book'
+INFO    2023-03-30 19:13:02,665 Run initialization
+INFO    2023-03-30 19:13:02,795 Created user <app.models.user.User object at 0x000002737996C220>
+INFO    2023-03-30 19:13:02,804 Created author <app.models.author.Author object at 0x000002737996C280>
+INFO    2023-03-30 19:13:02,809 Created author <app.models.author.Author object at 0x000002737996C220>
+INFO    2023-03-30 19:15:58,603 Run initialization
+INFO    2023-03-30 19:15:58,740 Created user <app.models.user.User object at 0x000001CAD676C220>
+INFO    2023-03-30 19:15:58,749 Created author <app.models.author.Author object at 0x000001CAD676C280>
+INFO    2023-03-30 19:15:58,755 Created author <app.models.author.Author object at 0x000001CAD676C220>
+ERROR   2023-03-30 19:22:10,187 An error during db initialization 
+INFO    2023-03-30 19:22:13,945 Run initialization
+INFO    2023-03-30 19:22:14,082 Created user <app.models.user.User object at 0x000001A28DE4C880>
+INFO    2023-03-30 19:22:14,091 Created author <app.models.author.Author object at 0x000001A28DE4CEE0>
+INFO    2023-03-30 19:22:14,097 Created author <app.models.author.Author object at 0x000001A28DE4C880>
+ERROR   2023-03-30 19:23:47,398 An error during db initialization 
+INFO    2023-03-30 19:23:50,427 Run initialization
+INFO    2023-03-30 19:23:50,559 Created user <app.models.user.User object at 0x000002088F17C220>
+INFO    2023-03-30 19:23:50,569 Created author <app.models.author.Author object at 0x000002088F17C280>
+INFO    2023-03-30 19:23:50,574 Created author <app.models.author.Author object at 0x000002088F17C220>
+ERROR   2023-03-30 19:24:16,263 An error during db initialization 
+INFO    2023-03-30 19:24:19,316 Run initialization
+INFO    2023-03-30 19:24:19,460 Created user <app.models.user.User object at 0x0000022227EAC220>
+INFO    2023-03-30 19:24:19,469 Created author <app.models.author.Author object at 0x0000022227EAC280>
+INFO    2023-03-30 19:24:19,474 Created author <app.models.author.Author object at 0x0000022227EAC220>
+ERROR   2023-03-30 19:24:19,476 An error during db initialization 'BookCreateModel' object has no attribute 'book'
+INFO    2023-03-30 19:28:34,651 Run initialization
+INFO    2023-03-30 19:28:34,784 Created user <app.models.user.User object at 0x000001A9804A4220>
+INFO    2023-03-30 19:28:34,793 Created author <app.models.author.Author object at 0x000001A9804A4280>
+INFO    2023-03-30 19:28:34,799 Created author <app.models.author.Author object at 0x000001A9804A4220>
+ERROR   2023-03-30 19:33:20,222 An error during db initialization 
+INFO    2023-03-30 19:33:23,551 Run initialization
+INFO    2023-03-30 19:33:23,691 Created user <app.models.user.User object at 0x00000238CB4741F0>
+INFO    2023-03-30 19:33:23,700 Created author <app.models.author.Author object at 0x00000238CB474250>
+INFO    2023-03-30 19:33:23,706 Created author <app.models.author.Author object at 0x00000238CB4741F0>
+ERROR   2023-03-30 19:35:08,053 An error during db initialization 
+INFO    2023-03-30 19:35:13,514 Run initialization
+INFO    2023-03-30 19:35:13,667 Created user <app.models.user.User object at 0x000002A8D3334220>
+INFO    2023-03-30 19:35:13,684 Created author <app.models.author.Author object at 0x000002A8D3334280>
+INFO    2023-03-30 19:35:13,689 Created author <app.models.author.Author object at 0x000002A8D3334220>
+INFO    2023-03-30 19:35:13,706 Created book <app.models.book.Book object at 0x000002A8D3334220>
+INFO    2023-03-30 19:35:13,712 Created book <app.models.book.Book object at 0x000002A8D3334160>
+INFO    2023-03-30 19:35:13,713 End initialization
+INFO    2023-03-30 20:53:49,716 Run initialization
+INFO    2023-03-30 20:53:49,861 Created user <app.models.user.User object at 0x0000022BC3369570>
+INFO    2023-03-30 20:53:49,871 Created author <app.models.author.Author object at 0x0000022BC33695D0>
+INFO    2023-03-30 20:53:49,877 Created author <app.models.author.Author object at 0x0000022BC3369570>
+INFO    2023-03-30 20:53:49,892 Created book <app.models.book.Book object at 0x0000022BC3369570>
+INFO    2023-03-30 20:53:49,898 Created book <app.models.book.Book object at 0x0000022BC3368040>
+ERROR   2023-03-30 20:53:49,902 An error during db initialization 'Book' object has no attribute 'first'
+INFO    2023-03-30 20:55:29,315 Run initialization
+INFO    2023-03-30 20:55:29,449 Created user <app.models.user.User object at 0x00000122626C92D0>
+INFO    2023-03-30 20:55:29,458 Created author <app.models.author.Author object at 0x00000122626C9330>
+INFO    2023-03-30 20:55:29,463 Created author <app.models.author.Author object at 0x00000122626C92D0>
+INFO    2023-03-30 20:55:29,476 Created book <app.models.book.Book object at 0x00000122626C92D0>
+INFO    2023-03-30 20:55:29,483 Created book <app.models.book.Book object at 0x00000122626C8AF0>
+ERROR   2023-03-30 20:58:18,467 An error during db initialization 
+INFO    2023-03-30 20:58:22,361 Run initialization
+INFO    2023-03-30 20:58:22,489 Created user <app.models.user.User object at 0x0000021E460692D0>
+INFO    2023-03-30 20:58:22,499 Created author <app.models.author.Author object at 0x0000021E46069330>
+INFO    2023-03-30 20:58:22,504 Created author <app.models.author.Author object at 0x0000021E460692D0>
+INFO    2023-03-30 20:58:22,516 Created book <app.models.book.Book object at 0x0000021E460692D0>
+INFO    2023-03-30 20:58:22,522 Created book <app.models.book.Book object at 0x0000021E46068AF0>
+ERROR   2023-03-30 21:00:19,730 An error during db initialization 
+INFO    2023-03-30 21:00:22,994 Run initialization
+INFO    2023-03-30 21:00:23,143 Created user <app.models.user.User object at 0x00000241309992D0>
+INFO    2023-03-30 21:00:23,162 Created author <app.models.author.Author object at 0x0000024130999330>
+INFO    2023-03-30 21:00:23,167 Created author <app.models.author.Author object at 0x00000241309992D0>
+INFO    2023-03-30 21:00:23,190 Created book <app.models.book.Book object at 0x00000241309992D0>
+INFO    2023-03-30 21:00:23,197 Created book <app.models.book.Book object at 0x0000024130998AF0>
+ERROR   2023-03-30 21:00:23,198 An error during db initialization 'builtin_function_or_method' object is not subscriptable
+INFO    2023-03-30 21:00:45,283 Run initialization
+INFO    2023-03-30 21:00:45,412 Created user <app.models.user.User object at 0x0000012A4A9092D0>
+INFO    2023-03-30 21:00:45,421 Created author <app.models.author.Author object at 0x0000012A4A909330>
+INFO    2023-03-30 21:00:45,426 Created author <app.models.author.Author object at 0x0000012A4A9092D0>
+INFO    2023-03-30 21:00:45,438 Created book <app.models.book.Book object at 0x0000012A4A9092D0>
+INFO    2023-03-30 21:00:45,444 Created book <app.models.book.Book object at 0x0000012A4A908AF0>
+ERROR   2023-03-30 21:00:45,449 An error during db initialization 'Book' object has no attribute 'first'
+INFO    2023-03-30 21:03:35,355 Run initialization
+INFO    2023-03-30 21:03:35,491 Created user <app.models.user.User object at 0x0000017378F392D0>
+INFO    2023-03-30 21:03:35,500 Created author <app.models.author.Author object at 0x0000017378F39330>
+INFO    2023-03-30 21:03:35,506 Created author <app.models.author.Author object at 0x0000017378F392D0>
+INFO    2023-03-30 21:03:35,517 Created book <app.models.book.Book object at 0x0000017378F392D0>
+INFO    2023-03-30 21:03:35,523 Created book <app.models.book.Book object at 0x0000017378F38AF0>
+ERROR   2023-03-30 21:03:35,527 An error during db initialization 'Book' object has no attribute 'first'
+INFO    2023-03-30 21:06:57,115 Run initialization
+INFO    2023-03-30 21:06:57,240 Created user <app.models.user.User object at 0x0000028BD63C9210>
+INFO    2023-03-30 21:06:57,249 Created author <app.models.author.Author object at 0x0000028BD63C9180>
+INFO    2023-03-30 21:06:57,254 Created author <app.models.author.Author object at 0x0000028BD63C9210>
+INFO    2023-03-30 21:06:57,267 Created book <app.models.book.Book object at 0x0000028BD63C9210>
+INFO    2023-03-30 21:06:57,273 Created book <app.models.book.Book object at 0x0000028BD63C9330>
+ERROR   2023-03-30 21:06:57,275 An error during db initialization name 'init_my_order' is not defined
+INFO    2023-03-30 21:07:13,233 Run initialization
+INFO    2023-03-30 21:07:13,354 Created user <app.models.user.User object at 0x00000170DE379210>
+INFO    2023-03-30 21:07:13,364 Created author <app.models.author.Author object at 0x00000170DE379180>
+INFO    2023-03-30 21:07:13,369 Created author <app.models.author.Author object at 0x00000170DE379210>
+INFO    2023-03-30 21:07:13,381 Created book <app.models.book.Book object at 0x00000170DE379210>
+INFO    2023-03-30 21:07:13,387 Created book <app.models.book.Book object at 0x00000170DE379330>
+ERROR   2023-03-30 21:07:13,393 An error during db initialization 1 validation error for OrderCreateModel
+status
+  field required (type=value_error.missing)
+INFO    2023-03-30 21:08:44,109 Run initialization
+INFO    2023-03-30 21:08:44,234 Created user <app.models.user.User object at 0x0000027F3D319420>
+INFO    2023-03-30 21:08:44,244 Created author <app.models.author.Author object at 0x0000027F3D319480>
+INFO    2023-03-30 21:08:44,249 Created author <app.models.author.Author object at 0x0000027F3D319420>
+INFO    2023-03-30 21:08:44,261 Created book <app.models.book.Book object at 0x0000027F3D319420>
+INFO    2023-03-30 21:08:44,267 Created book <app.models.book.Book object at 0x0000027F3D318C40>
+INFO    2023-03-30 21:08:44,282 Order <app.models.order.Order object at 0x0000027F3D382290> created
+ERROR   2023-03-30 21:08:44,283 An error during db initialization 'OrderCreateModel' object has no attribute 'id'
+INFO    2023-03-30 21:09:29,699 Run initialization
+INFO    2023-03-30 21:09:29,827 Created user <app.models.user.User object at 0x000002808BCA9300>
+INFO    2023-03-30 21:09:29,837 Created author <app.models.author.Author object at 0x000002808BCA9270>
+INFO    2023-03-30 21:09:29,843 Created author <app.models.author.Author object at 0x000002808BCA9300>
+INFO    2023-03-30 21:09:29,854 Created book <app.models.book.Book object at 0x000002808BCA9300>
+INFO    2023-03-30 21:09:29,860 Created book <app.models.book.Book object at 0x000002808BCA9420>
+INFO    2023-03-30 21:09:29,870 Order <app.models.order.Order object at 0x000002808BCA9270> created
+ERROR   2023-03-30 21:09:29,871 An error during db initialization 'OrderCreateModel' object has no attribute 'id'
+INFO    2023-03-30 21:10:49,250 Run initialization
+INFO    2023-03-30 21:10:49,390 Created user <app.models.user.User object at 0x0000019263D39510>
+INFO    2023-03-30 21:10:49,400 Created author <app.models.author.Author object at 0x0000019263D395A0>
+INFO    2023-03-30 21:10:49,405 Created author <app.models.author.Author object at 0x0000019263D39510>
+INFO    2023-03-30 21:10:49,490 Created book <app.models.book.Book object at 0x0000019263D39510>
+INFO    2023-03-30 21:10:49,496 Created book <app.models.book.Book object at 0x0000019263D38D30>
+INFO    2023-03-30 21:11:05,884 Order <app.models.order.Order object at 0x0000019263E081C0> created
+INFO    2023-04-02 19:23:17,836 Found author John, Tolkien
+INFO    2023-04-02 19:28:31,818 Found author Aizek, Azimov
+INFO    2023-04-02 19:33:45,656 Found author John, Tolkien
+INFO    2023-04-02 19:37:36,420 Found author John, Tolkien
+INFO    2023-04-02 19:55:46,005 Found author John, Tolkien
+INFO    2023-04-02 19:57:48,831 Found authors [<app.models.author.Author object at 0x000001BEC0D61810>, <app.models.author.Author object at 0x000001BEC0D62B00>]
+INFO    2023-04-02 20:05:30,346 Found authors [<app.models.author.Author object at 0x0000014FA2795720>, <app.models.author.Author object at 0x0000014FA2796A10>]
+INFO    2023-04-02 20:11:17,210 Found authors [<app.models.author.Author object at 0x0000018BB16657E0>, <app.models.author.Author object at 0x0000018BB1666AD0>]
+INFO    2023-04-02 20:29:12,022 Found book Hobbit
+INFO    2023-04-02 20:29:49,915 Found book Hobbit
+INFO    2023-04-02 20:30:39,575 Found book Hobbit
+INFO    2023-04-02 20:30:59,672 Found authors [<app.models.book.Book object at 0x000001473A69D660>, <app.models.book.Book object at 0x000001473A69DBA0>]
+INFO    2023-04-02 20:32:31,371 Found book Hobbit
+INFO    2023-04-02 20:34:35,513 Found authors [<app.models.book.Book object at 0x000001BE80B18D60>, <app.models.book.Book object at 0x000001BE80B19A80>]
+INFO    2023-04-02 20:34:49,326 Found book Hobbit
+INFO    2023-04-02 20:34:59,245 Found authors [<app.models.author.Author object at 0x000001BE80B1B3A0>, <app.models.author.Author object at 0x000001BE80B1B400>]
